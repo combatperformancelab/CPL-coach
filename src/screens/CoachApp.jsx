@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { db, auth } from "../firebase";
 import {
   collection, doc, setDoc, updateDoc, onSnapshot,
-  addDoc, serverTimestamp, query, orderBy, getDocs
+  addDoc, serverTimestamp, query, orderBy
 } from "firebase/firestore";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
